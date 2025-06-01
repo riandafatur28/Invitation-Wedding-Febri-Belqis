@@ -506,12 +506,12 @@ footer li {
 /* Phone */
 @media (max-width: 576px) {
   html {
-    font-size: 60%;
+    font-size: 75%;
   }
 
   .simply-countdown .simply-section {
     padding: 15px; /* Mengurangi padding untuk mempertahankan ruang tetapi tidak terlalu besar */
-    margin: 3px; /* Menambahkan margin untuk memberikan ruang di sekitar elemen */
+    margin: 4px; /* Menambahkan margin untuk memberikan ruang di sekitar elemen */
   }
 
   .timeline li .timeline-image {
