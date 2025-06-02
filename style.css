@@ -400,6 +400,12 @@ footer li {
   margin: 0 0.5rem;
 }
 
+.btn-outline-dark:hover {
+  color: white !important;
+  background-color: #e83e8c !important; /* Pink Bootstrap */
+  border-color: #e83e8c !important;
+}
+
 .audio-icon-wrapper {
   width: 4rem;
   height: 4rem;
@@ -461,6 +467,17 @@ footer li {
   .timeline li .timeline-panel {
     width: calc(100% - 200px);
     float: right;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(214,52,132,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .navbar-toggler {
+    display: block !important;
+    border: none !important;
+    background: transparent;
+    z-index: 1050; /* Supaya di atas elemen lain */
   }
 
   .timeline li .timeline-panel::before {
