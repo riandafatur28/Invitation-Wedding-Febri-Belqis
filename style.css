@@ -423,6 +423,7 @@ footer li {
   justify-content: center;
   align-items: center;
   line-height: 0;
+  z-index: 9999; /* 👉 Tambahkan ini */
 }
 
 @keyframes rotating {
